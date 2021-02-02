@@ -1,0 +1,12 @@
+/*Theme*/
+:root{
+    --title: #569CD6;
+    --text : #D4D4D4;
+    --hover: inherit;
+    --link: inherit;
+    --body: #1E1E1E;
+    --primary: #569CD6;
+    --secondary: #4EC9B0;
+    --shadow: #364852;
+    --light: #546B78;
+}

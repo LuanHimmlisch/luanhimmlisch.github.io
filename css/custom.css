@@ -1,0 +1,144 @@
+body{
+    min-height: 300vh;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+.container{
+    overflow: hidden;
+}
+.title{
+    display: block;
+    color: #569CD6;
+    text-align: center;
+}
+.title p:first-child{
+    display: inline;
+    font-size: 3rem;
+    margin-right: 2rem;
+}
+.title h1{
+    display: inline;
+    color: #4EC9B0;
+}
+nav{
+    margin: 2rem 0 5rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    gap: 1rem;
+}
+@media (max-width:800px){
+    .title p:first-child{
+        display:block;
+    }
+    nav{
+        grid-template-columns: 1fr;
+        text-align: left;
+    }
+}
+nav *{
+    margin: 0;
+}
+section{
+    margin-bottom: 40px;
+}
+section .content{
+    padding-left: 50px;
+}
+section h2 {
+    color: #DCDC9D;
+    position: relative;
+}
+section > h2::after{
+    content: "";
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    height: 2px;
+    background-color: #D4D4D4;
+}
+pre{
+    margin: 0;
+}
+article{
+    margin-bottom: 1rem;
+}
+.writer::after{
+    content: "|";
+    color: #D4D4D4!important;
+    font-size: 1.2rem;
+    animation-name: writer;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    opacity: 1;
+}
+@keyframes writer{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.antidumb{
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.antidumb.start{
+    animation-name: antidumb;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+}
+.end{
+    font-size: 4rem;
+    text-align: center;
+}
+@keyframes antidumb{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+/*Tags*/
+[class^="tag-"]{
+    display: inline;
+
+}
+.tag-none{
+    color: #D4D4D4;
+}
+.tag-comment{
+    display: block;
+    color: #529955;
+    margin: 0;
+    text-align: right;
+}
+.tag-class{
+    color: #4EC9B0;
+}
+.tag-system{
+    color: #569CD6;
+}
+.tag-bracket{
+    color: #FFD700;
+}
+.tag-variable{
+    color: #9CDCFE;
+}
+.tag-string{
+    color: #CE9169;
+}
