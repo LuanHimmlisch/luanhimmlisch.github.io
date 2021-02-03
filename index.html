@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-16">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
 
     <meta property="og:url" content="https://luanhimmlisch.tk">
     <meta property="og:image" content="https://luanhimmlisch.tk/cover.jpg">
-    <meta property="og:description" content="Luis Ángel Serrano Catalá. Programador junior y desarrollador de videojuegos. Mira su currículum">
+    <meta property="og:description" content="Luis Ángel Serrano Catalá. Junior programmer and game developer. Check his resume in English or Spanish">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="es_MX">
     <meta property="og:fb:app_id" content="">
@@ -16,98 +16,101 @@
     <title>Luan Himmlisch - Programador Junior</title>
 </head>
 <body>
-    <div class="antidumb">Scroll down to start</div>
+    <div id="langs">
+        <a id="es" href="/?lang=es"></a>
+        <a id="en" href="/"></a>
+    </div>
+    <div class="antidumb"><span data-lang="antidumb"></span></div>
     <div class="tag-system">&lt;?php</div>
     <div class="flex">
         <div class="container">
         <div class="title"><p>Class</p><h1>Luan_Himmlisch{</h1></div>
         <nav>
-            <div>CONST Programador_Junior;</div>
-            <div>CONST Desarrollador_de_videojuegos;</div>
-            <div>CONST Estudiante;</div>
+            <div>CONST <span data-lang="programmer"></span>;</div>
+            <div>CONST <span data-lang="gamedev"></span>;</div>
+            <div>CONST <span data-lang="student"></span>;</div>
             <div>$Github = <a href="https://github.com/LuanHimmlisch" target="_blank">'LuanHimmlisch'</a>;</div>
             <div>$LinkedIn = <a href="https://www.linkedin.com/in/luancomun/" target="_blank">'Luis Serrano'</a>;</div>
-            <div>$Pensamientos = <a href="https://luancomun.tk/" target="_blank">'Blog Común'</a>;</div>
+            <div><span data-lang="thoughts"></span> = <a href="https://luancomun.tk/" target="_blank">'Blog Común'</a>;</div>
         </nav>
         <main>
-            
             <section id="about">
-                <h2>Sobre_mi<div class="tag-bracket">()</div></h2>
+                <h2><span data-lang="about">About</span><div class="tag-bracket">()</div></h2>
                 <div class="content">
-                    $Programación = ['PHP', 'C#', 'Unity 3D', 'Construct 2', 'Python'];<br>
-                    $Web_Medios   = ['HTML/CSS/Js', 'Laravel', 'Photoshop', 'Premiere Pro'];<br>
-                    $Idiomas      = ['Español nativo', 'Inglés conversacional'];<br>
-                    $Intereses    = ['Videojuegos', 'Arte digital', 'Diseño'];<br>
+                    <span data-lang="programming"></span> = ['PHP', 'C#', 'Unity 3D', 'Construct 2', 'Python'];<br>
+                    <span data-lang="webmedia"></span>   = ['HTML/CSS/Js', 'Laravel', 'Photoshop', 'Premiere Pro'];<br>
+                    <span data-lang="languages"></span>      = [<span data-lang="spanish"></span>, <span data-lang="english"></span>];<br>
+                    <span data-lang="interests"></span>    = [<span data-lang="games"></span>, <span data-lang="art"></span>, <span data-lang="design"></span>];<br>
                 </div>
             </section>
             <section id="projects">
-                <h2>Proyectos<div class="tag-bracket">()</div></h2>
+                <h2><span data-lang="projects"></span><div class="tag-bracket">()</div></h2>
                 <div class="content">
                     <article>
                         <a href="https://himmlischweb.tk">$Himmlisch_Web =</a>
-                    <div class="tag-comment">// 2020 - Actualidad</div><pre>[
-    'Trabajo freelance',
-    'Desarrollo e instalación de páginas web en PHP para clientes',
-    'Hosting con Neubox, uso de SFTP para envío de archivos y Cloudflare'
+                    <div class="tag-comment">// 2020 - <span data-lang="now"></span></div><pre>[
+    <span data-lang="hw_1"></span>,
+    <span data-lang="hw_2"></span>,
+    <span data-lang="hw_3"></span>
 ];</pre>
                     </article>
                     <article>
                         <a href="https://masterpose.tk/pages/PickUp/index.html">$Pick_Up =</a>
                     <div class="tag-comment">// 2019 - 2021</div><pre>[
-    'Videojuego educativo ambiental',
-    'Desarrollado en Construct 2',
-    'Compilado a PC y Android usando NWjs y Cordova'
+    <span data-lang="pu_1"></span>,
+    <span data-lang="pu_2"></span>,
+    <span data-lang="pu_3"></span>
 ];</pre>
                     </article>
                     <article>
                         <a href="https://masterpose.tk">$Master_Pose =</a>
-                    <div class="tag-comment">// 2017 - Actualidad</div><pre>[
-    'Publicación de cursos y videojuegos',
-    'Creación de cursos en Youtube sobre diseño de videojuegos',
-    'Desarrollo de diversos videojuegos usando Construct 2 y Unity 3D'
+                    <div class="tag-comment">// 2017 - <span data-lang="now"></span></div><pre>[
+    <span data-lang="mp_1"></span>,
+    <span data-lang="mp_2"></span>,
+    <span data-lang="mp_3"></span>
 ];</pre>
                     </article>
                 </div>
             </section>
             <section id="achievements">
-                <h2>Reconocimientos<div class="tag-bracket">()</div></h2>
+                <h2><span data-lang="achievements"></span><div class="tag-bracket">()</div></h2>
                 <div class="content">
                     <article>
-                        <a href="http://uemstis.sep.gob.mx/index.php/la-dgeti-hoy/887-estudiantes-de-dgeti-ganan-muestra-latinoamericana-virtual-de-ciencias-tecnologia-e-innovacion-2020" target="_blank">$Primer_lugar_en_divulgación_de_la_ciencia =</a>
+                        <a href="http://uemstis.sep.gob.mx/index.php/la-dgeti-hoy/887-estudiantes-de-dgeti-ganan-muestra-latinoamericana-virtual-de-ciencias-tecnologia-e-innovacion-2020" target="_blank"><span data-lang="a1"></span> =</a>
                     <div class="tag-comment">// 2020</div><pre>[
-    'Presenté Pick Up a la MLVCTI 2020',
-    'Sustente mi proyecto con un plan de investigación mejorado',
-    'Logré el primer lugar en Divulgación Científica',
-    'En 2021 me presentaré en Paraguay'
+    <span data-lang="a11"></span>,
+    <span data-lang="a12"></span>,
+    <span data-lang="a13"></span>,
+    <span data-lang="a14"></span>
 ];</pre>
                     </article>
                     <article>
-                        <a href="./img/selider.jpg" target="_blank">$Mejor_staff_de_sede =</a>
+                        <a href="./img/selider.jpg" target="_blank"><span data-lang="a2"></span> =</a>
                     <div class="tag-comment">// 2020</div><pre>[
-    'Soy parte de una Organización llamada SELIDER',
-    'Desde hace 2 años soy cabeza de imagen, manejando redes sociales y marketing',
-    'Por medio de votación me eligieron como el mejor staff de la sede'
+    <span data-lang="a21"></span>,
+    <span data-lang="a22"></span>,
+    <span data-lang="a23"></span>
 ];</pre>
                     </article>
                     <article>
-                        <a href="https://masterpose.tk/pages/PickUp/index.html" target="_blank">$Primer_lugar_en_Software =</a>
+                        <a href="https://masterpose.tk/pages/PickUp/index.html" target="_blank"><span data-lang="a3"></span> =</a>
                     <div class="tag-comment">// 2020</div><pre>[
-    'Desarrollé el prototipo Pick Up',
-    'Lo presenté al Concurso Nacional de Prototipos 2020 etapa estatal',
-    'Hice un plan de investigación, soportando mi proyecto con evidencia científica',
-    'Obtuve primer lugar en el área de Software siendo elegido para la nacional'
+    <span data-lang="a31"></span>,
+    <span data-lang="a32"></span>,
+    <span data-lang="a33"></span>,
+    <span data-lang="a34"></span>
 ];</pre>
                     </article>
                 </div>
             </section>
             <section id="studies">
-                <h2>Estudios<div class="tag-bracket">()</div></h2>
+                <h2><span data-lang="studies"></span><div class="tag-bracket">()</div></h2>
                 <div class="content">
                     <article>
-                        $Técnico_en_programación =
+                        <span data-lang="s1"></span> =
                     <div class="tag-comment">// 2018 - 2021</div><pre>[
-    'Actualmente curso 6to semestre de Programación de bachillerato',
-    'Centro de Bachillerato Tecnológico, Industrial y de Servicios Núm. 92'
+    <span data-lang="s11"></span>,
+    <span data-lang="s12"></span>
 ];</pre>
                     </article>
                 </div>
@@ -122,7 +125,37 @@
 
 
     <script>
-        window.addEventListener("load",()=>{    
+        
+        async function translate(lang){
+            const url = `./lang/${lang}.json`;
+            let response = await fetch(url);
+
+            if (response.ok) {
+                const json = await response.json();
+                const dom = document.querySelectorAll("*");
+                dom.forEach(element => {
+                    let key = element.getAttribute("data-lang");
+                    if(key != null){
+                        if(key in json){
+                            element.innerHTML = json[key];
+                        }
+                    }
+                });
+            } else {
+                console.log("Error on lang loading: "+response.status);;
+            }
+        }
+
+        window.addEventListener("load", async ()=>{
+            var $_GET=[];
+            window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(a,name,value){$_GET[name]=value;});
+
+            const defaultLang = $_GET["lang"] ?? "en"; 
+            await translate(defaultLang);
+
+
+
+            // Syntax highlight
             class Match{
                 regExps = [];
                 cssNames = [];
@@ -174,12 +207,20 @@
         
             syntax.run();
 
-            var html = document.body.innerHTML;
-            var htmlArr = document.body.innerHTML.split("");
-            var scrollPrevious = 0;
+            var html;
+            var htmlArr;
+            var scrollPrevious;
             
-            scroll(); addEventListener("scroll",()=>{scroll()});
+            resetScrollVariables();
+            scroll();
+            addEventListener("scroll",()=>{scroll()});
             
+            function resetScrollVariables(){
+                html = document.body.innerHTML;
+                htmlArr = document.body.innerHTML.split("");
+                scrollPrevious = 0;
+            }
+
             function scroll(){
                 const scrollCurrent = document.scrollingElement.scrollTop;
                 const scrollMax = document.scrollingElement.scrollHeight;
@@ -189,7 +230,7 @@
                     return;
 
                 const charsCurrent = (scrollCurrent*charsMax)/scrollMax;
-                document.body.innerHTML = html.substring(0,charsCurrent*2.2+241)+"<div class='writer'></div>";
+                document.body.innerHTML = html.substring(0,charsCurrent*2.2+395)+"<div class='writer'></div>";
                 scrollPrevious = scrollCurrent;
             }
 

@@ -113,6 +113,31 @@ article{
         opacity: 0;
     }
 }
+#langs{
+    position: absolute;
+    display: block;
+    top: 1%;
+    right: 1%;
+}
+#langs a{
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    border: 0;
+    outline: none;
+    opacity: 0.2;
+    transition: opacity 0.3s ease;
+}
+#langs a:hover{
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+#langs a#es{
+    background-image: url("../img/icon-es.jpg");
+}
+#langs a#en{
+    background-image: url("../img/icon-en.jpg");
+}
 /*Tags*/
 [class^="tag-"]{
     display: inline;
