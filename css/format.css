@@ -52,7 +52,7 @@ h5{
 h6{
     font-size: 1.2rem;
 }
-p,a,input,ul,li,button,pre{
+p,a,input,ul,li,button,pre,textarea{
     font-size: 1.2rem;
     font-family: inherit;
     margin-top: 0;

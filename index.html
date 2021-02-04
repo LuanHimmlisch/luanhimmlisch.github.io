@@ -63,19 +63,24 @@
                 <h2><span data-lang="projects">Projects</span><div class="tag-bracket">()</div></h2>
                 <div class="content">
                     <article>
+                        <a href="https://masterpose.tk/pages/PickUp/index.html" target="_blank">$Pick_Up =</a>
+                    <div class="tag-comment">// 2019 - 2021</div><pre>[
+    <span data-lang="pu_1">'Educational environmental game developed on Construct 2'</span>,
+    <span data-lang="pu_2">'It uses HTML & Js and an implementation of A* Algorithm'</span>,
+    <span data-lang="pu_3">'Compiled to PC & Android using NWjs and Cordova'</span>
+];</pre>
+                    </article>
+                </div>
+            </section>
+            <section id="experience">
+                <h2><span data-lang="experience">Experience</span><div class="tag-bracket">()</div></h2>
+                <div class="content">
+                    <article>
                         <a href="https://himmlischweb.tk">$Himmlisch_Web =</a>
                     <div class="tag-comment">// 2020 - <span data-lang="now">Now</span></div><pre>[
     <span data-lang="hw_1">'Freelance work'</span>,
     <span data-lang="hw_2">'Development and installation of PHP websites for clients'</span>,
     <span data-lang="hw_3">'Hosting on Neubox, use of SFTP and Cloudflare'</span>
-];</pre>
-                    </article>
-                    <article>
-                        <a href="https://masterpose.tk/pages/PickUp/index.html">$Pick_Up =</a>
-                    <div class="tag-comment">// 2019 - 2021</div><pre>[
-    <span data-lang="pu_1">'Educational environmental game'</span>,
-    <span data-lang="pu_2">'Developed on Construct 2'</span>,
-    <span data-lang="pu_3">'Compiled to PC & Android using NWjs and Cordova'</span>
 ];</pre>
                     </article>
                     <article>
@@ -129,6 +134,26 @@
     <span data-lang="s12">'Technological, Industrial and Services Highschool Center Num. 92'</span>
 ];</pre>
                     </article>
+                </div>
+            </section>
+            <section id="contact">
+                <h2><span data-lang="contact">Contact</span><div class="tag-bracket">()</div></h2>
+                <div class="content">
+                    <form action="https://formspree.io/f/xzbkwavo" method="POST">
+                        <label>
+                            <span data-lang="c_1">$name</span> = 
+                            <div class="tag-string">'</div><input type="text" name="name"><div class="tag-string">'</div>;
+                        </label>
+                        <label>
+                            <span data-lang="c_2">$email</span> = 
+                            <div class="tag-string">'</div><input type="email" name="_replyto"><div class="tag-string">'</div>;
+                        </label>
+                        <label>
+                            <span data-lang="c_3">$message</span> = <div class="tag-string">'</div><br>
+                            <textarea name="message" style="margin-left:11ch"></textarea><div class="tag-string">'</div>;
+                        </label>
+                        <button type="submit"><span data-lang="c_4">submit</span><div class="tag-bracket">()</div>;</button>
+                    </form>
                 </div>
             </section>
         </main>
@@ -219,6 +244,7 @@
             syntax.match(/CONST/g,"system");
             syntax.match(/\$[A-ú]+/g,"variable");
             syntax.match(/'\w.+'/g,"string");
+            //syntax.match(/'/g,"string");
             syntax.match(/,/g,"none");
         
             syntax.run();

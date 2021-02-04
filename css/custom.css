@@ -113,13 +113,13 @@ article{
         opacity: 0;
     }
 }
-#langs{
+div#langs{
     position: absolute;
     display: block;
     top: 1%;
     right: 1%;
 }
-#langs a{
+div#langs a{
     display: inline-block;
     width: 30px;
     height: 20px;
@@ -128,15 +128,33 @@ article{
     opacity: 0.2;
     transition: opacity 0.3s ease;
 }
-#langs a:hover{
+div#langs a:hover{
     opacity: 0.7;
     transition: opacity 0.3s ease;
 }
-#langs a#es{
+div#langs a#es{
     background-image: url("../img/icon-es.jpg");
 }
-#langs a#en{
+div#langs a#en{
     background-image: url("../img/icon-en.jpg");
+}
+label{
+    display:block;
+}
+input,textarea{
+    display: inline-block;
+    background-color: var(--body);
+    color: #CE9169;
+    border: 0;
+    outline: 0;
+    width: 17rem;
+}
+button{
+    background-color: var(--body);
+    color: #DCDC9D;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px #FFD700 solid;
 }
 /*Tags*/
 [class^="tag-"]{
