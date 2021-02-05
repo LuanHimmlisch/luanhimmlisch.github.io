@@ -16,6 +16,8 @@
     "now": "Actualidad",
     "antidumb": "Scroll abajo para empezar",
     "projects": "Proyectos",
+        "dm_1": "'Herramienta en 3D para crear mapas/escenarios basados en cuadrículas'",
+        "dm_2": "'Hecho en Unity 3D y compilado para navegador con Web Assembly'",
         "pu_1": "'Videojuego educativo ambiental'",
         "pu_2": "'Usa HTML y Js y una implementación del algoritmo A*'",
         "pu_3": "'Compilado a PC y Android usando NWjs y Cordova'",

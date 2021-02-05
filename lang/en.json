@@ -16,6 +16,8 @@
     "now": "Now",
     "antidumb": "Scroll down to start",
     "projects": "Projects",
+        "dm_1": "'3D tool to make grid-based maps and scenarios'",
+        "dm_2": "'Made on Unity 3D with C# and compiled to browser with Web Assembly'",
         "pu_1": "'Educational environmental game'",
         "pu_2": "'It uses HTML & Js and an implementation of A* Algorithm'",
         "pu_3": "'Compiled to PC & Android using NWjs and Cordova'",
