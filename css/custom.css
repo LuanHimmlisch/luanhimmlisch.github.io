@@ -146,6 +146,9 @@ input,textarea{
     background-color: var(--body);
     color: #CE9169;
     border: 0;
+    background: rgba(255,255,255,0.05);
+    border-radius: 5px;
+    padding: 5px;
     outline: 0;
     width: 17rem;
 }
