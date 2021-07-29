@@ -1,12 +1,28 @@
-/*Theme*/
+/* ============================================= */
+/*         Style made by Luan Himmlisch          */
+/* Apache 2.0 License | https://himmlisch.com.mx */
+/* ============================================= */
+
+/* Theme of the site */
+@import url("./base.css");
 :root{
-    --title: #569CD6;
-    --text : #D4D4D4;
-    --hover: inherit;
-    --link: inherit;
-    --body: #1E1E1E;
-    --primary: #569CD6;
-    --secondary: #4EC9B0;
-    --shadow: #364852;
-    --light: #546B78;
+    --primaryLight: #9adbfe;
+    --primary: #4fc9b1;
+    --primaryDark: var(--blue-500);
+    --primaryText: ;
+    --primaryHeader: ;
+    --primaryAccent: ;
+
+    --secondaryLight: hsl(60, 47%, 74%);
+    --secondary: #ffd900;
+    --secondaryDark: #ccad00;
+    --secondaryText: ;
+    --secondaryHeader: ;
+    --secondaryAccent: ;
+
+    --defaultBackgroundLight: hsl(0, 0%, 16%);
+    --defaultBackground: rgb(31, 31, 31);
+    --defaultBackgroundDark: hsl(0, 0%, 10%);
+    --defaultHeader: #ffffff;
+    --defaultText: #D4D4D4;
 }
