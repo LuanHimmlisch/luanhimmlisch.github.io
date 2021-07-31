@@ -251,19 +251,19 @@ nav{
     padding: 2rem;
 }
 #achievements{
-    min-height: auto;
+   background-image: linear-gradient(to right, #1e1e1ed3 0 100%),url("/img/achievements_bg.jpg");
+   background-size: cover;
+   background-position: center;
+
 }
 .achievements_content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     height: 100%;
     vertical-align: middle;
-    padding: 5rem 0;
 }
 .achievement{
-    min-height: 128px;
     text-align: center;
-    margin-top: 64px;
 }
 .achievement *{
     color: var(--secondaryLight);

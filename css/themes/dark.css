@@ -21,7 +21,7 @@
     --secondaryAccent: ;
 
     --defaultBackgroundLight: hsl(0, 0%, 16%);
-    --defaultBackground: rgb(31, 31, 31);
+    --defaultBackground: hsl(0, 0%, 12%);
     --defaultBackgroundDark: hsl(0, 0%, 10%);
     --defaultHeader: #ffffff;
     --defaultText: #D4D4D4;
