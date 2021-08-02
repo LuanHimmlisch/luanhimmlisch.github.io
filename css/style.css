@@ -352,7 +352,7 @@ nav{
     width: 100%;
     margin: 0 auto;
 }
-.contact__input > label > h3{
+.contact__input > h3 > label{
     color: var(--primary);
     font-size: 2rem;
 }

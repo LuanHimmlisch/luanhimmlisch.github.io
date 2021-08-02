@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- SEO -->
@@ -26,9 +26,10 @@
     <meta name="yandex-verification" content="e42d3009fb48405d" />
     <meta name="msvalidate.01" content="021824C8E71C8BF772EDDC91FEFC09A8" />
 
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="canonical" href="https://luanhimmlisch.github.io/">
+    <link rel="apple-touch-icon" href="/favicon.png">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
+    <link rel="canonical" href="https://luanhimmlisch.github.io/">
 
     <!-- Import theme -->
     <link rel="stylesheet" href="./css/themes/dark.css">
@@ -58,9 +59,9 @@
         <h2 class="header__bg--right" aria-hidden="true">Himmlisch</h2>
     </header>
     <main>
-        <section id="portfolio">
+        <section id="portfolio" aria-labelledby="portfolio-title">
             <header>
-                <h2 class="portfolio__title">💼 Portfolio</h2>
+                <h2 class="portfolio__title" id="portfolio-title">💼 Portfolio</h2>
                 <ul class="portfolio__bar">
                     <li>File</li>
                     <li>Edit</li>
@@ -74,10 +75,10 @@
             <div class="portfolio__main">
                 <aside class="portfolio__sidebar">
                     <a href="javascript:void(0);" onclick="ButtonShowProject(this);" data-project="luanhimmlisch">Luan Himmlisch</a>
-                    <a href="javascript:void(0);" onclick="ButtonShowProject(this);" data-project="masterpose">MasterPose.dev</a>
-                    <a href="javascript:void(0);" onclick="ButtonShowProject(this);" data-project="vsmarket">VS Market</a>
-                    <a href="javascript:void(0);" onclick="ButtonShowProject(this);" data-project="dungeonmaker">Dungeon Maker 3D</a>
-                    <a href="javascript:void(0);" onclick="ButtonShowProject(this);" data-project="pickup">Pick Up</a>
+                    <a href="javascript:void(1);" onclick="ButtonShowProject(this);" data-project="masterpose">MasterPose.dev</a>
+                    <a href="javascript:void(2);" onclick="ButtonShowProject(this);" data-project="vsmarket">VS Market</a>
+                    <a href="javascript:void(3);" onclick="ButtonShowProject(this);" data-project="dungeonmaker">Dungeon Maker 3D</a>
+                    <a href="javascript:void(4);" onclick="ButtonShowProject(this);" data-project="pickup">Pick Up</a>
                 </aside>
                 <div class="portfolio__content">
                     <!-- Project start -->
@@ -95,7 +96,7 @@
                     <!-- Project start -->
                     <article id="luanhimmlisch">
                         <div class="project__image">
-                            <img src="./img/project-5.png" alt="Luan Himmlisch wesite screenshot">
+                            <img src="./img/project-5.png" alt="Luan Himmlisch website screenshot">
                         </div>
                         <div class="project__content">
                             <div>
@@ -227,8 +228,8 @@
                 Projects made by Luan Himmlisch.
             </div>
         </section>
-        <section id="achievements">
-            <h2 class="text-center">🏆 Achievements & Awards</h2>
+        <section id="achievements" aria-labelledby="achievements-title">
+            <h2 class="text-center" id="achievements-title">🏆 Achievements & Awards</h2>
             <div class="achievements_content">
                 <!-- Award start -->
                 <article class="achievement">
@@ -259,14 +260,14 @@
                 <!-- Award end -->
             </div>
         </section>
-        <section id="experience">
-            <h2 class="text-center"> Work & Education</h2>
+        <section id="experience" aria-labelledby="experience-title">
+            <h2 class="text-center" id="experience-title">🎓 Work & Education</h2>
             <div class="experience__content">
                 <!-- Event start -->
                 <div class="event">
                     <h3 class="event__title">Fiverr</h3>
                     <div class="event__info">
-                        <p>2021 - Today</p>
+                        <p><time>2021</time> - Today</p>
                         <p>Contractor.</p>
                     </div>
                     <p class="event__position">Web development</p>
@@ -276,7 +277,7 @@
                 <div class="event">
                     <h3 class="event__title">CBTis 92</h3>
                     <div class="event__info">
-                        <p>2018 - 2021</p>
+                        <p><time>2018</time> - <time>2021</time></p>
                         <p>School.</p>
                     </div>
                     <p class="event__position">Programming Technician</p>
@@ -284,51 +285,51 @@
                 <!-- Event end -->
             </div>
         </section>
-        <section id="contact">
-            <h2 class="text-center">📮 Contact me</h2>
+        <section id="contact" aria-labelledby="contact-title">
+            <h2 class="text-center" id="contact-title">📮 Contact me</h2>
             <form class="contact__form" action="https://formspree.io/f/xzbkwavo" method="POST">
                 <div class="contact__input">
-                    <label for="name"><h3>Your name</h3></label>
+                    <h3><label for="name">Your name</label></h3>
                     <input type="text" name="name" id="name" placeholder="Obi Wan">
                 </div>
 
                 <div class="contact__input">
-                    <label for="_replyto" title="Email to reply to"><h3>Contact email</h3></label>
+                    <h3><label for="_replyto" title="Email to reply to">Contact email</label></h3>
                     <input type="email" name="_replyto" id="_replyto" placeholder="general.kenobi@republic.com">
                 </div>
 
                 <div class="contact__input">
-                    <label for="subject"><h3>How can I help you?</h3></label>
+                    <h3><label for="subject">How can I help you?</label></h3>
                     <select name="subject" id="subject">
                         <option>I've got a business opportunity</option>
                         <option>I want you to collaborate to my open source project</option>
                         <option>I'm in the media</option>
-                        <option data-faq="website-cost">How much for a website?</option>
-                        <option data-faq="website-support">I have a problem with my site</option>
-                        <option data-faq="hi">I just want to say hi!</option>
+                        <option data-faq="website-cost" aria-describedby="faq-website-cost">How much for a website?</option>
+                        <option data-faq="website-support" aria-describedby="faq-website-support">I have a problem with my site</option>
+                        <option data-faq="hi" aria-describedby="faq-hi">I just want to say hi!</option>
                     </select>
 
                     <!-- FAQS -->
                     <div id="faqs">
+                        <div class="hidden" id="faq-hi">
+                            <p><b>Hello!</b> I'm open to all types of conversations but try to keep this way of communication <b>professional</b></p>
+                        </div>
                         <div class="hidden" id="faq-website-cost">
                             <p>You can contact me via <a href="https://fiverr.com/luanhimmlisch" target="_blank">Fiverr</a> or <a href="https://web.himmlisch.com.mx" target="_blank">Himmlisch web</a></p>
                         </div>
                         <div class="hidden" id="faq-website-support">
                             <p>If the site was made by <b>Himmlisch Web</b> and want support, you can contact me via <a href="mailto:soporte@himmlisch.com.mx">soporte@himmlisch.com.mx</a></p>
                         </div>
-                        <div class="hidden" id="faq-hi">
-                            <p><b>Hello!</b> I'm open to all types of conversations but try to keep this way of communication <b>professional</b></p>
-                        </div>
                     </div>
                 </div>
 
                 <div class="contact__input">
-                    <label for="message"><h3>Details</h3></label>
+                    <h3><label for="message">Details</label></h3>
                     <textarea name="message" id="message" placeholder="Hello there! ..."></textarea>
                 </div>
                 
                 <div class="contact__submit">
-                    <button type="submit">Submit</button>
+                    <button type="submit" aria-label="Send email">Submit</button>
                 </div>
             </form>
         </section>
