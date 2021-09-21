@@ -53,12 +53,13 @@
     <header class="header">
         <div class="header__content">
             <h1>I'm a <strong class="text-primary">Frontend</strong> and <strong class="text-primary">Game developer</strong></h1>
-            <p class="header__subtitle"><span class="text-secondary">{</span> Pages with <strong>accesibility</strong>, <strong>responsivity</strong> & <strong><b>personality</b></strong> <span class="text-secondary">}</span></p>
+            <p class="header__subtitle"><span class="text-secondary" aria-hidden="true">{</span> Pages with <strong>accesibility</strong>, <strong>responsivity</strong> & <strong><b>personality</b></strong> <span class="text-secondary" aria-hidden="true">}</span></p>
         </div>
         <h2 class="header__bg--left" aria-hidden="true">Luan</h2>
         <h2 class="header__bg--right" aria-hidden="true">Himmlisch</h2>
     </header>
     <main>
+        <!-- PORTFOLIO SECTION -->
         <section id="portfolio" aria-labelledby="portfolio-title">
             <header>
                 <h2 class="portfolio__title" id="portfolio-title">💼 Portfolio</h2>
@@ -74,11 +75,12 @@
             </header>
             <div class="portfolio__main">
                 <aside class="portfolio__sidebar">
-                    <a href="javascript:void(0);" onclick="ButtonShowProject(this);" data-project="luanhimmlisch">Luan Himmlisch</a>
-                    <a href="javascript:void(1);" onclick="ButtonShowProject(this);" data-project="masterpose">MasterPose.dev</a>
+                    <a href="javascript:void(5);" onclick="ButtonShowProject(this);" data-project="piratetube">PirateTube</a>
+                    <a href="javascript:void(4);" onclick="ButtonShowProject(this);" data-project="luanhimmlisch">Luan Himmlisch</a>
+                    <a href="javascript:void(3);" onclick="ButtonShowProject(this);" data-project="masterpose">MasterPose.dev</a>
                     <a href="javascript:void(2);" onclick="ButtonShowProject(this);" data-project="vsmarket">VS Market</a>
-                    <a href="javascript:void(3);" onclick="ButtonShowProject(this);" data-project="dungeonmaker">Dungeon Maker 3D</a>
-                    <a href="javascript:void(4);" onclick="ButtonShowProject(this);" data-project="pickup">Pick Up</a>
+                    <a href="javascript:void(1);" onclick="ButtonShowProject(this);" data-project="dungeonmaker">Dungeon Maker 3D</a>
+                    <a href="javascript:void(0);" onclick="ButtonShowProject(this);" data-project="pickup">Pick Up</a>
                 </aside>
                 <div class="portfolio__content">
                     <!-- Project start -->
@@ -88,6 +90,31 @@
                                 <img src="./img/project-none.png" alt="Luan Himmlisch's Logo">
                                 <h3>Open a project!</h3>
                                 <p>Click the project of your interest at the left sidebar</p>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Project end -->
+
+                    <!-- Project start -->
+                    <article id="piratetube">
+                        <div class="project__image">
+                            <img src="./img/project-6.png" alt="PirateTube.net website screenshot">
+                        </div>
+                        <div class="project__content">
+                            <div>
+                                <h3>PirateTube</h3>
+                                <p>PirateTube is a Peer to Peer, Youtube-like video streaming service. This project was made for <a href="https://github.com/PirateNetwork/" target="_blank">Pirate Chain</a>, the most anonymous cryptocurrency.</p>
+                                <p>
+                                    <a href="https://piratetube.net/" target="_blank">Website link</a>
+                                </p>
+                            </div>
+                            <div class="project__characteristics">
+                                <h4>Characteristics:</h4>
+                                <ul>
+                                    <li>Peertube Theme</li>
+                                    <li><b>Ubuntu server</b> setup</li>
+                                    <li>Peer to Peer</li>
+                                </ul>
                             </div>
                         </div>
                     </article>
@@ -228,6 +255,9 @@
                 Projects made by Luan Himmlisch.
             </div>
         </section>
+
+
+        <!-- ACHIEVEMENTS SECTION -->
         <section id="achievements" aria-labelledby="achievements-title">
             <h2 class="text-center" id="achievements-title">🏆 Achievements & Awards</h2>
             <div class="achievements_content">
@@ -260,9 +290,42 @@
                 <!-- Award end -->
             </div>
         </section>
+
+        
+        <!-- EXPERIENCE SECTION -->
         <section id="experience" aria-labelledby="experience-title">
             <h2 class="text-center" id="experience-title">🎓 Work & Education</h2>
             <div class="experience__content">
+                <!-- Event start -->
+                <div class="event">
+                    <h3 class="event__title">Pirate Chain</h3>
+                    <div class="event__info">
+                        <p><time>2021</time> - Today</p>
+                        <p>Volunteer on Acorn Labs.</p>
+                    </div>
+                    <p class="event__position">Frontend Developer</p>
+                </div>
+                <!-- Event end -->
+                <!-- Event start -->
+                <div class="event">
+                    <h3 class="event__title">Weblabor</h3>
+                    <div class="event__info">
+                        <p><time>2021</time> - Today</p>
+                        <p>Part-time job.</p>
+                    </div>
+                    <p class="event__position">Frontend Developer</p>
+                </div>
+                <!-- Event end -->
+                <!-- Event start -->
+                <div class="event">
+                    <h3 class="event__title">UNACH</h3>
+                    <div class="event__info">
+                        <p><time>2021</time> - Today</p>
+                        <p>University</p>
+                    </div>
+                    <p class="event__position">Software Development Engineer</p>
+                </div>
+                <!-- Event end -->
                 <!-- Event start -->
                 <div class="event">
                     <h3 class="event__title">Fiverr</h3>
@@ -270,7 +333,7 @@
                         <p><time>2021</time> - Today</p>
                         <p>Contractor.</p>
                     </div>
-                    <p class="event__position">Web development</p>
+                    <p class="event__position">Web Developer</p>
                 </div>
                 <!-- Event end -->
                 <!-- Event start -->
@@ -285,6 +348,9 @@
                 <!-- Event end -->
             </div>
         </section>
+        
+
+        <!-- CONTACT SECTION -->
         <section id="contact" aria-labelledby="contact-title">
             <h2 class="text-center" id="contact-title">📮 Contact me</h2>
             <form class="contact__form" action="https://formspree.io/f/xzbkwavo" method="POST">
@@ -334,17 +400,22 @@
             </form>
         </section>
     </main>
+
     <p class="start" aria-hidden="true">&lt;?php</p>
     <p class="end" aria-hidden="true">?&gt;</p>
+
+
     <footer>
         <p>Did you liked the site? Check the <a href="https://github.com/LuanHimmlisch/luanhimmlisch.github.io" target="_blank">repository</a>!</p>
         <p><a href="https://www.linkedin.com/in/luancomun/" target="_blank">LinkedIn</a> | <a href="https://github.com/LuanHimmlisch" target="_blank">Github</a> | <a href="https://masterpose.dev" target="_blank">Videogames</a></p>
     </footer>
+
+    <!-- FORM FAQ -->
     <script>
         const subject = document.getElementById("subject");
-        subject.addEventListener("change", () => updateFaq());
+        subject.addEventListener("change", () => UpdateFaq());
 
-        function updateFaq(){
+        function UpdateFaq(){
             const faqId = subject.options[subject.selectedIndex].dataset.faq;
             const faqs = document.getElementById("faqs");
 
@@ -362,6 +433,8 @@
             answer.classList.remove("hidden");
         }
     </script>
+
+    <!-- PROJECT VSCODE WINDOW -->
     <script>
         function ButtonShowProject(element){
             projectId = element.dataset.project;
