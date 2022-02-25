@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- SEO -->
     <meta name="description" content="Luis Ángel Serrano Catalá is a Software and Game Developer. Check his portfolio and achievements">
 
@@ -39,6 +40,7 @@
 
     <title>Luan Himmlisch - Software & game developer </title>
 </head>
+
 <body>
     <nav>
         <!-- <img src="" alt=""> -->
@@ -75,12 +77,13 @@
             </header>
             <div class="portfolio__main">
                 <aside class="portfolio__sidebar">
-                    <a href="javascript:void(5);" onclick="ButtonShowProject(this);" data-project="piratetube">PirateTube</a>
-                    <a href="javascript:void(4);" onclick="ButtonShowProject(this);" data-project="luanhimmlisch">Luan Himmlisch</a>
-                    <a href="javascript:void(3);" onclick="ButtonShowProject(this);" data-project="masterpose">MasterPose.dev</a>
-                    <a href="javascript:void(2);" onclick="ButtonShowProject(this);" data-project="vsmarket">VS Market</a>
-                    <a href="javascript:void(1);" onclick="ButtonShowProject(this);" data-project="dungeonmaker">Dungeon Maker 3D</a>
-                    <a href="javascript:void(0);" onclick="ButtonShowProject(this);" data-project="pickup">Pick Up</a>
+                    <button onclick="ButtonShowProject(this);" data-project="himmlisch">Himmlisch Studios</button>
+                    <button onclick="ButtonShowProject(this);" data-project="masterpose">Master Pose</button>
+                    <!-- <button onclick="ButtonShowProject(this);" data-project="luanhimmlisch">Luan Himmlisch</button> -->
+                    <button onclick="ButtonShowProject(this);" data-project="dungeonmaker">Dungeon Maker 3D</button>
+                    <button onclick="ButtonShowProject(this);" data-project="vsmarket">VS Market</button>
+                    <button onclick="ButtonShowProject(this);" data-project="pickup">Pick Up</button>
+                    <button onclick="ButtonShowProject(this);" data-project="piratetube">PirateTube</button>
                 </aside>
                 <div class="portfolio__content">
                     <!-- Project start -->
@@ -96,24 +99,53 @@
                     <!-- Project end -->
 
                     <!-- Project start -->
-                    <article id="piratetube">
-                        <div class="project__image">
-                            <img src="./img/project-6.png" alt="PirateTube.net website screenshot">
+                    <article id="himmlisch">
+                        <div class="project__image project__image--top">
+                            <img src="./img/project-himmlisch.png" alt="Himmlisch Studio's website screenshot">
                         </div>
                         <div class="project__content">
                             <div>
-                                <h3>PirateTube</h3>
-                                <p>PirateTube is a Peer to Peer, Youtube-like video streaming service. This project was made for <a href="https://github.com/PirateNetwork/" target="_blank">Pirate Chain</a>, the most anonymous cryptocurrency.</p>
+                                <h3>Himmlisch Studios</h3>
+                                <p>Himmlisch Studios is an artistic-driven tech-solution company. The site was developed using <b>Twig</b>, <b>Tailwind CSS</b> and <b>Grav CMS</b>.</p>
                                 <p>
-                                    <a href="https://piratetube.net/" target="_blank">Website link</a>
+                                    <a href="https://himmlisch.com.mx" target="_blank">Website link</a>
                                 </p>
                             </div>
                             <div class="project__characteristics">
                                 <h4>Characteristics:</h4>
                                 <ul>
-                                    <li>Peertube Theme</li>
-                                    <li><b>Ubuntu server</b> setup</li>
-                                    <li>Peer to Peer</li>
+                                    <li><b>Grav CMS</b> & Tailwind CSS</li>
+                                    <li><b>CPanel</b> management</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Project end -->
+
+                    <!-- Project start -->
+                    <article id="masterpose">
+                        <div class="project__image">
+                            <img src="./img/project-masterpose.png" alt="masterpose.dev website screenshot">
+                        </div>
+                        <div class="project__content">
+                            <div>
+                                <h3>Master Pose</h3>
+                                <p>I've been designing and developing videogames for over <b>3 years</b> under the name of Master Pose. I've developed web, desktop and mobile games with Unity 3D, Godot and Construct 2 & 3.</p>
+                                <p>
+                                    <a href="https://masterpose.dev" target="_blank">Website link</a>
+                                    |
+                                    <a href="https://github.com/MasterPose" target="_blank">Github Organization</a>
+                                    |
+                                    <a href="https://play.google.com/store/apps/dev?id=6223474521001418574" target="_blank">Play Store</a>
+                                </p>
+                            </div>
+                            <div class="project__characteristics">
+                                <h4>Characteristics:</h4>
+                                <ul>
+                                    <li>Construct 3 & <b>Unity 3D</b></li>
+                                    <li>Web APIs with <b>Laravel</b></li>
+                                    <li>Grav CMS, <b>Svelte</b>, Tailwind</li>
+                                    <li><b>Cordova</b> & Electron</li>
                                 </ul>
                             </div>
                         </div>
@@ -123,7 +155,7 @@
                     <!-- Project start -->
                     <article id="luanhimmlisch">
                         <div class="project__image">
-                            <img src="./img/project-5.png" alt="Luan Himmlisch website screenshot">
+                            <img src="./img/project-luanhimmlisch.png" alt="Luan Himmlisch website screenshot">
                         </div>
                         <div class="project__content">
                             <div>
@@ -148,25 +180,24 @@
                     <!-- Project end -->
 
                     <!-- Project start -->
-                    <article id="masterpose">
+                    <article id="dungeonmaker">
                         <div class="project__image">
-                            <img src="./img/project-4.png" alt="masterpose.dev website screenshot">
+                            <img src="./img/project-dungeonmaker.jpg" alt="Dungeon Maker 3D videogame screenshot">
                         </div>
                         <div class="project__content">
                             <div>
-                                <h3>MasterPose.dev</h3>
-                                <p>Master Pose is an indie game development studio who wanted a site to publish their games, news and information.</p>
+                                <h3>Dungeon Maker 3D</h3>
+                                <p>3D tool to make grid-based maps and scenarios for Dungeons & Dragons or prototypes.</p>
                                 <p>
-                                    <a href="https://masterpose.dev" target="_blank">Website link</a>
+                                    <a href="https://masterpose.itch.io/dungeon-maker-3d" target="_blank">Website link</a>
                                 </p>
                             </div>
                             <div class="project__characteristics">
                                 <h4>Characteristics:</h4>
                                 <ul>
-                                    <li>Made with <b>Grav CMS</b></li>
-                                    <li>Use of <b>Tailwind CSS</b></li>
-                                    <li><b>Stripe API</b> connection</li>
-                                    <li>Microdata optimization</li>
+                                    <li>Made with <b>Unity 3D</b></li>
+                                    <li>Modeling with <b>Magica Voxel</b></li>
+                                    <li>Custom shaders</li>
                                 </ul>
                             </div>
                         </div>
@@ -176,7 +207,7 @@
                     <!-- Project start -->
                     <article id="vsmarket">
                         <div class="project__image">
-                            <img src="./img/project-3.png" alt="VS Market website screenshot">
+                            <img src="./img/project-vsmarket.png" alt="VS Market website screenshot">
                         </div>
                         <div class="project__content">
                             <div>
@@ -201,34 +232,9 @@
                     <!-- Project end -->
 
                     <!-- Project start -->
-                    <article id="dungeonmaker">
-                        <div class="project__image">
-                            <img src="./img/project-2.jpg" alt="Dungeon Maker 3D videogame screenshot">
-                        </div>
-                        <div class="project__content">
-                            <div>
-                                <h3>Dungeon Maker 3D</h3>
-                                <p>3D tool to make grid-based maps and scenarios for Dungeons & Dragons or prototypes.</p>
-                                <p>
-                                    <a href="https://masterpose.itch.io/dungeon-maker-3d" target="_blank">Website link</a>
-                                </p>
-                            </div>
-                            <div class="project__characteristics">
-                                <h4>Characteristics:</h4>
-                                <ul>
-                                    <li>Made with <b>Unity 3D</b></li>
-                                    <li>Modeling with <b>Magica Voxel</b></li>
-                                    <li>Custom shaders</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </article>
-                    <!-- Project end -->
-
-                    <!-- Project start -->
                     <article id="pickup">
                         <div class="project__image">
-                            <img src="./img/project-1.png" alt="Pick Up videogame screenshot">
+                            <img src="./img/project-pickup.png" alt="Pick Up videogame screenshot">
                         </div>
                         <div class="project__content">
                             <div>
@@ -244,6 +250,31 @@
                                     <li>Made with <b>Construct 2</b></li>
                                     <li>Use of A* algorithm</li>
                                     <li>Save & load mechanics</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Project end -->
+
+                    <!-- Project start -->
+                    <article id="piratetube">
+                        <div class="project__image">
+                            <img src="./img/project-piratetube.png" alt="PirateTube.net website screenshot">
+                        </div>
+                        <div class="project__content">
+                            <div>
+                                <h3>PirateTube</h3>
+                                <p>PirateTube is a Peer to Peer, Youtube-like video streaming service. This project was made for Pirate Chain, an anonymous cryptocurrency.</p>
+                                <p>
+                                    <a href="https://piratetube.net/" target="_blank">Website link</a>
+                                </p>
+                            </div>
+                            <div class="project__characteristics">
+                                <h4>Characteristics:</h4>
+                                <ul>
+                                    <li>Peertube Theme</li>
+                                    <li><b>Ubuntu server</b> setup</li>
+                                    <li>Peer to Peer</li>
                                 </ul>
                             </div>
                         </div>
@@ -291,21 +322,11 @@
             </div>
         </section>
 
-        
+
         <!-- EXPERIENCE SECTION -->
         <section id="experience" aria-labelledby="experience-title">
             <h2 class="text-center" id="experience-title">🎓 Work & Education</h2>
             <div class="experience__content">
-                <!-- Event start -->
-                <div class="event">
-                    <h3 class="event__title">Pirate Chain</h3>
-                    <div class="event__info">
-                        <p><time>2021</time> - Today</p>
-                        <p>Volunteer on Acorn Labs.</p>
-                    </div>
-                    <p class="event__position">Frontend Developer</p>
-                </div>
-                <!-- Event end -->
                 <!-- Event start -->
                 <div class="event">
                     <h3 class="event__title">Weblabor</h3>
@@ -338,6 +359,16 @@
                 <!-- Event end -->
                 <!-- Event start -->
                 <div class="event">
+                    <h3 class="event__title">SELIDER<br><br>San Cristóbal</h3>
+                    <div class="event__info">
+                        <p><time>2018</time> - 2022</p>
+                        <p>Volunteer.</p>
+                    </div>
+                    <p class="event__position">Social Media Manager</p>
+                </div>
+                <!-- Event end -->
+                <!-- Event start -->
+                <div class="event">
                     <h3 class="event__title">CBTis 92</h3>
                     <div class="event__info">
                         <p><time>2018</time> - <time>2021</time></p>
@@ -348,7 +379,7 @@
                 <!-- Event end -->
             </div>
         </section>
-        
+
 
         <!-- CONTACT SECTION -->
         <section id="contact" aria-labelledby="contact-title">
@@ -367,9 +398,9 @@
                 <div class="contact__input">
                     <h3><label for="subject">How can I help you?</label></h3>
                     <select name="subject" id="subject">
-                        <option>I've got a business opportunity</option>
+                        <option>I have a business opportunity</option>
                         <option>I want you to collaborate to my open source project</option>
-                        <option>I'm in the media</option>
+                        <option>I'm from the media</option>
                         <option data-faq="website-cost" aria-describedby="faq-website-cost">How much for a website?</option>
                         <option data-faq="website-support" aria-describedby="faq-website-support">I have a problem with my site</option>
                         <option data-faq="hi" aria-describedby="faq-hi">I just want to say hi!</option>
@@ -393,7 +424,7 @@
                     <h3><label for="message">Details</label></h3>
                     <textarea name="message" id="message" placeholder="Hello there! ..."></textarea>
                 </div>
-                
+
                 <div class="contact__submit">
                     <button type="submit" aria-label="Send email">Submit</button>
                 </div>
@@ -415,7 +446,7 @@
         const subject = document.getElementById("subject");
         subject.addEventListener("change", () => UpdateFaq());
 
-        function UpdateFaq(){
+        function UpdateFaq() {
             const faqId = subject.options[subject.selectedIndex].dataset.faq;
             const faqs = document.getElementById("faqs");
 
@@ -425,10 +456,10 @@
                 faq.classList.add("hidden");
             }
 
-            if(faqId == undefined){
+            if (faqId == undefined) {
                 return;
             }
-            
+
             const answer = document.getElementById(`faq-${faqId}`);
             answer.classList.remove("hidden");
         }
@@ -436,27 +467,28 @@
 
     <!-- PROJECT VSCODE WINDOW -->
     <script>
-        function ButtonShowProject(element){
+        function ButtonShowProject(element) {
             projectId = element.dataset.project;
             const title = document.querySelector(".portfolio__title");
             title.innerHTML = `README.md - ${projectId} - 💼 Portfolio`;
             ShowProject(projectId);
         }
-        function ShowProject(projectId){
+        function ShowProject(projectId) {
             HideProjects();
             const portfolioContainer = document.getElementById(projectId);
             portfolioContainer.classList.remove("hidden");
         }
-        function HideProjects(){
+        function HideProjects() {
             const portfolioContainer = document.querySelector(".portfolio__content");
             const childrens = portfolioContainer.children;
             for (let i = 0; i < childrens.length; i++) {
                 const project = childrens[i];
                 project.classList.add("hidden");
             }
-            
+
         }
         document.onload = ShowProject("none");
     </script>
 </body>
+
 </html>

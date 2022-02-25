@@ -208,16 +208,20 @@ nav{
     height: 100%;
     padding: 0.5rem 0;
 }
-.portfolio__sidebar a{
+.portfolio__sidebar button{
     display: block;
     text-decoration: none;
     color: var(--defaultText);
+    background: none;
+    border: 0;
+    box-shadow: none;
+    font-weight: 400;
 }
-.portfolio__sidebar a::before{
+.portfolio__sidebar button::before{
     content: "📁 ";
     padding-left: 0.5rem;
 }
-.portfolio__sidebar a:hover{
+.portfolio__sidebar button:hover{
     background-color: rgba(255, 255, 255, 0.05);
 }
 .portfolio__content{
@@ -244,6 +248,11 @@ nav{
     bottom: 50%;
     transform: translateY(50%);
     width: 100%;
+}
+.project__image--top img{
+    bottom: auto;
+    transform: none;
+    top: 0%;
 }
 .project__content{
     display: grid;
