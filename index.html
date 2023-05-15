@@ -7,12 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- SEO -->
-    <meta name="description" content="Luis Ángel Serrano Catalá is a Software and Game Developer. Check his portfolio and achievements">
+    <meta name="description"
+          content="Luis Ángel Serrano Catalá is a Software and Game Developer. Check his portfolio and achievements">
 
     <meta property="og:url" content="https://luanhimmlisch.github.io/">
     <meta property="og:image" content="https://luanhimmlisch.github.io/img/cover.jpg">
     <meta property="og:title" content="Luan Himmlisch - Software developer">
-    <meta property="og:description" content="Luis Ángel Serrano Catalá is a Software and Game Developer. Check his portfolio and achievements">
+    <meta property="og:description"
+          content="Luis Ángel Serrano Catalá is a Software and Game Developer. Check his portfolio and achievements">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_US">
     <meta property="fb:app_id" content="460683758279925">
@@ -54,8 +56,18 @@
     </nav>
     <header class="header">
         <div class="header__content">
-            <h1>I'm a <strong class="text-primary">Frontend</strong> and <strong class="text-primary">Game developer</strong></h1>
-            <p class="header__subtitle"><span class="text-secondary" aria-hidden="true">{</span> Pages with <strong>accesibility</strong>, <strong>responsivity</strong> & <strong><b>personality</b></strong> <span class="text-secondary" aria-hidden="true">}</span></p>
+            <h1>
+                I'm a
+                <strong class="text-primary">Full-Stack</strong>
+                and
+                <strong class="text-primary">Game developer</strong>
+            </h1>
+            <p class="header__subtitle">
+                <span class="text-secondary" aria-hidden="true">{</span>
+                Sites with <strong>accesibility</strong>,
+                <strong>responsivity</strong> & <strong><b>personality</b></strong>
+                <span class="text-secondary" aria-hidden="true">}</span>
+            </p>
         </div>
         <h2 class="header__bg--left" aria-hidden="true">Luan</h2>
         <h2 class="header__bg--right" aria-hidden="true">Himmlisch</h2>
@@ -64,8 +76,10 @@
         <!-- PORTFOLIO SECTION -->
         <section id="portfolio" aria-labelledby="portfolio-title">
             <header>
-                <h2 class="portfolio__title" id="portfolio-title">💼 Portfolio</h2>
-                <ul class="portfolio__bar">
+                <h2 class="portfolio__title" id="portfolio-title">
+                    💼 Portfolio
+                </h2>
+                <ul class="portfolio__bar" aria-hidden="true">
                     <li>File</li>
                     <li>Edit</li>
                     <li>Selection</li>
@@ -76,18 +90,21 @@
                 </ul>
             </header>
             <div class="portfolio__main">
-                <aside class="portfolio__sidebar">
-                    <button onclick="ButtonShowProject(this);" data-project="himmlisch">Himmlisch Studios</button>
-                    <button onclick="ButtonShowProject(this);" data-project="masterpose">Master Pose</button>
-                    <!-- <button onclick="ButtonShowProject(this);" data-project="luanhimmlisch">Luan Himmlisch</button> -->
-                    <button onclick="ButtonShowProject(this);" data-project="dungeonmaker">Dungeon Maker 3D</button>
-                    <button onclick="ButtonShowProject(this);" data-project="vsmarket">VS Market</button>
-                    <button onclick="ButtonShowProject(this);" data-project="pickup">Pick Up</button>
-                    <button onclick="ButtonShowProject(this);" data-project="piratetube">PirateTube</button>
-                </aside>
+                <div class="portfolio__sidebar">
+                    <button type="button" data-project="masterpose-network">Master Pose Network</button>
+                    <button type="button" data-project="mine">Mine</button>
+                    <button type="button" data-project="dungeonmaker">Dungeon Maker 3D</button>
+                    <button type="button" data-project="stract">Stract</button>
+                    <button type="button" data-project="rebox">ReBox</button>
+                    <button type="button" data-project="stores-map">Stores Map</button>
+                    <button type="button" data-project="snap-to">Snap To</button>
+                    <button type="button" data-project="himmlisch-school">Himmlisch School</button>
+                    <button type="button" data-project="pickup">Pick Up</button>
+                    <button type="button" data-project="luanhimmlisch">Luan Himmlisch</button>
+                </div>
                 <div class="portfolio__content">
                     <!-- Project start -->
-                    <article id="none">
+                    <article id="none" class="grid-1">
                         <div class="project__content grid-1 text-center">
                             <div class="text-center w-full text-header" style="opacity:0.5">
                                 <img src="./img/project-none.png" alt="Luan Himmlisch's Logo">
@@ -99,23 +116,30 @@
                     <!-- Project end -->
 
                     <!-- Project start -->
-                    <article id="himmlisch">
-                        <div class="project__image project__image--top">
-                            <img src="./img/project-himmlisch.png" alt="Himmlisch Studio's website screenshot">
+                    <article id="masterpose-network">
+                        <div class="project__carousel" data-carousel="3000">
+                            <div>
+                                <img src="./img/project-masterpose-network-1.png" alt="Master Pose Network Admin Panel Screenshot">
+                                <img src="./img/project-masterpose-network-2.png" alt="Master Pose Network Player Feed Screenshot">
+                                <img src="./img/project-masterpose-network-3.png" alt="Master Pose Network Example Game Screenshot">
+                                <img src="./img/project-masterpose-network-4.jpeg" alt="Master Pose Network Stand Photo">
+                            </div>
                         </div>
                         <div class="project__content">
                             <div>
-                                <h3>Himmlisch Studios</h3>
-                                <p>Himmlisch Studios is an artistic-driven tech-solution company. The site was developed using <b>Twig</b>, <b>Tailwind CSS</b> and <b>Grav CMS</b>.</p>
+                                <h3>Master Pose Network</h3>
                                 <p>
-                                    <a href="https://himmlisch.com.mx" target="_blank">Website link</a>
+                                    A complete, <b>flexible and robust</b> system for game developers to make their own ecosystem of interconected games.<br>
+                                    It mainly provides scoreboards, achievements and arbitrary data upload with <b>cloud-syncing</b>, to make your players never lost data between multiple devices and games.<br>
+                                    It includes a complete BackEnd, admin panel, API and a JavaScript utility library to integrate to any game <b>with ease</b>.
                                 </p>
                             </div>
                             <div class="project__characteristics">
                                 <h4>Characteristics:</h4>
                                 <ul>
-                                    <li><b>Grav CMS</b> & Tailwind CSS</li>
-                                    <li><b>CPanel</b> management</li>
+                                    <li>Full CRUD</li>
+                                    <li>API with JWT Tokens</li>
+                                    <li>JavaScript wrapper library</li>
                                 </ul>
                             </div>
                         </div>
@@ -123,56 +147,30 @@
                     <!-- Project end -->
 
                     <!-- Project start -->
-                    <article id="masterpose">
+                    <article id="mine">
                         <div class="project__image">
-                            <img src="./img/project-masterpose.png" alt="masterpose.dev website screenshot">
+                            <img src="./img/project-mine.png" alt="Mine App Thumbnail 1">
                         </div>
                         <div class="project__content">
                             <div>
-                                <h3>Master Pose</h3>
-                                <p>I've been designing and developing videogames for over <b>3 years</b> under the name of Master Pose. I've developed web, desktop and mobile games with Unity 3D, Godot and Construct 2 & 3.</p>
+                                <h3>Mine: the first antisocial network</h3>
                                 <p>
-                                    <a href="https://masterpose.dev" target="_blank">Website link</a>
+                                    Mine is a note taking app with a resemblance of Twitter's UI.<br>
+                                    It plays on the idea of the adictivity of social media and the toxicity we normally encounter on a daily basis.<br>
+                                    <strong>Share your thoughts with yourself and keep your ideas to your own! </strong>
+                                </p>
+                                <p>
+                                    <a href="https://masterpose.itch.io/mine" target="_blank">Website link</a>
                                     |
-                                    <a href="https://github.com/MasterPose" target="_blank">Github Organization</a>
-                                    |
-                                    <a href="https://play.google.com/store/apps/dev?id=6223474521001418574" target="_blank">Play Store</a>
+                                    <a href="https://play.google.com/store/apps/details?id=dev.masterpose.mine" target="_blank">Play Store</a>
                                 </p>
                             </div>
                             <div class="project__characteristics">
                                 <h4>Characteristics:</h4>
                                 <ul>
-                                    <li>Construct 3 & <b>Unity 3D</b></li>
-                                    <li>Web APIs with <b>Laravel</b></li>
-                                    <li>Grav CMS, <b>Svelte</b>, Tailwind</li>
-                                    <li><b>Cordova</b> & Electron</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </article>
-                    <!-- Project end -->
-
-                    <!-- Project start -->
-                    <article id="luanhimmlisch">
-                        <div class="project__image">
-                            <img src="./img/project-luanhimmlisch.png" alt="Luan Himmlisch website screenshot">
-                        </div>
-                        <div class="project__content">
-                            <div>
-                                <h3>Luan Himmlisch</h3>
-                                <p>This site itself is a prove of my skills that I've learned over the past years. Built from scratch, SEO friendly and open source for you to check!</p>
-                                <p>
-                                    <a href="/" target="_blank">Website link</a>
-                                    |
-                                    <a href="https://github.com/LuanHimmlisch/luanhimmlisch.github.io/" target="_blank">Github repository</a>
-                                </p>
-                            </div>
-                            <div class="project__characteristics">
-                                <h4>Characteristics:</h4>
-                                <ul>
-                                    <li>Built from scratch</li>
-                                    <li>Accesibility & <strong>SEO friendly</strong></li>
-                                    <li>Vanilla javascript</li>
+                                    <li>Made with <strong>Svelte</strong></li>
+                                    <li>Compiled with <b>Cordova</b></li>
+                                    <li>Import & Export</li>
                                 </ul>
                             </div>
                         </div>
@@ -187,9 +185,11 @@
                         <div class="project__content">
                             <div>
                                 <h3>Dungeon Maker 3D</h3>
-                                <p>3D tool to make grid-based maps and scenarios for Dungeons & Dragons or prototypes.</p>
+                                <p>3D tool to make grid-based maps and scenarios for Dungeons & Dragons or prototypes.
+                                </p>
                                 <p>
-                                    <a href="https://masterpose.itch.io/dungeon-maker-3d" target="_blank">Website link</a>
+                                    <a href="https://masterpose.itch.io/dungeon-maker-3d" target="_blank">Website
+                                        link</a>
                                 </p>
                             </div>
                             <div class="project__characteristics">
@@ -205,26 +205,141 @@
                     <!-- Project end -->
 
                     <!-- Project start -->
-                    <article id="vsmarket">
+                    <article id="stract">
                         <div class="project__image">
-                            <img src="./img/project-vsmarket.png" alt="VS Market website screenshot">
+                            <img src="./img/project-stract.png" alt="Stract theme thumbnail">
                         </div>
                         <div class="project__content">
                             <div>
-                                <h3>VS Market</h3>
-                                <p>Online web scraper tool that lets you analyze the competition and gives you valuable information to optimize your own site.</p>
+                                <h3>Stract</h3>
                                 <p>
-                                    <a href="https://vsmarket.himmlisch.com.mx/" target="_blank">Website link</a>
-                                    |
-                                    <a href="https://github.com/LuanHimmlisch/vsmarket" target="_blank">Github repository</a>
+                                    Pixel-perfect theme for <strong>Grav CMS</strong> based on the client's Figma, and made entirely customizable using Grav's <b>modular system</b>.
                                 </p>
                             </div>
                             <div class="project__characteristics">
                                 <h4>Characteristics:</h4>
                                 <ul>
-                                    <li>Advanced string manipulation</li>
-                                    <li>Use of <b>Tailwind CSS</b></li>
-                                    <li>Made from scratch with vanilla PHP</li>
+                                    <li>One-to-one mockup <b>fidelity</b></li>
+                                    <li><strong>Twig</strong> templating</li>
+                                    <li><strong>YAML</strong> Blueprints</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Project end -->
+
+                    <!-- Project start -->
+                    <article id="rebox">
+                        <div class="project__image">
+                            <img src="./img/project-rebox.webp" alt="ReBox thumbnail">
+                        </div>
+                        <div class="project__content">
+                            <div>
+                                <h3>ReBox</h3>
+                                <p>
+                                    ReBox is an app commissioned by a box rental business on Colombia.<br>
+                                    The clients can scan the rented/purchased boxes, organize them and manage their inventory.
+                                </p>
+                            </div>
+                            <div class="project__characteristics">
+                                <h4>Characteristics:</h4>
+                                <ul>
+                                    <li>Made with <strong>Flutter</strong></li>
+                                    <li>QR Code creation and scanning</li>
+                                    <li>Geolocalization API</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Project end -->
+
+                    <!-- Project start -->
+                    <article id="stores-map">
+                        <div class="project__carousel" data-carousel="3000">
+                            <div>
+                                <img src="./img/project-stores-map-1.webp" alt="Stores Map Plugin Widget">
+                                <img src="./img/project-stores-map-2.webp" alt="Stores Map Plugin Admin Panel Screenshot 1">
+                                <img src="./img/project-stores-map-3.webp" alt="Stores Map Plugin Admin Panel Screenshot 2">
+                                <img src="./img/project-stores-map-4.webp" alt="Stores Map Plugin Admin Panel Screenshot 3">
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <div>
+                                <h3>Stores Map</h3>
+                                <p>
+                                    All in one solution to quickly add and manage a store locator on your <b>Grav CMS</b> website.
+                                </p>
+                                <p>
+                                    <a href="https://himmlisch.com.mx/shop/id:stores-map" target="_blank">Website link</a>
+                                </p>
+                            </div>
+                            <div class="project__characteristics">
+                                <h4>Characteristics:</h4>
+                                <ul>
+                                    <li>Plugin for <b>Grav</b></li>
+                                    <li><b>Leaflet</b> with OSM and GMaps</li>
+                                    <li><strong>Flex Objects</strong></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Project end -->
+
+                    <!-- Project start -->
+                    <article id="snap-to">
+                        <div class="project__carousel" data-carousel="3000">
+                            <div>
+                                <img src="./img/project-snap-to-1.png" alt="Snap To Plugin Layout Demostration">
+                                <img src="./img/project-snap-to-2.png" alt="Snap To Plugin Code Example">
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <div>
+                                <h3>Snap To</h3>
+                                <p>
+                                    A plugin made for the <strong>Construct 3</strong> game engine.<br>
+                                    It allows snaping the camera on a fixed grid, similar to retro games such as Zelda.
+                                </p>
+                                <p>
+                                    <a href="https://masterpose.itch.io/snap-to-c3" target="_blank">Website link</a>
+                                </p>
+                            </div>
+                            <div class="project__characteristics">
+                                <h4>Characteristics:</h4>
+                                <ul>
+                                    <li>Construct 3 SDK</li>
+                                    <li>Lerp tweening</li>
+                                    <li>Framerate independence with Delta-time</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Project end -->
+
+                    <!-- Project start -->
+                    <article id="himmlisch-school">
+                        <div class="project__image">
+                            <img src="./img/project-himmlisch-school.png" alt="Himmlisch School Screenshot">
+                        </div>
+                        <div class="project__content">
+                            <div>
+                                <h3>Himmlisch School</h3>
+                                <p>
+                                    An on-going project to make common utilities for university students.
+                                    It includes many advanced calculators and generators such as an automatic generator for APA citation.
+                                </p>
+                                <p>
+                                    <a href="https://school.himmlisch.com.mx" target="_blank">Website link</a>
+                                    |
+                                    <a href="https://github.com/Himmlisch-Studios/school" target="_blank">Repository</a>
+                                </p>
+                            </div>
+                            <div class="project__characteristics">
+                                <h4>Characteristics:</h4>
+                                <ul>
+                                    <li>Vanilla <strong>PHP 8.2</strong></li>
+                                    <li><strong>Web Scraping</strong></li>
+                                    <li>Open-Source</li>
                                 </ul>
                             </div>
                         </div>
@@ -239,7 +354,12 @@
                         <div class="project__content">
                             <div>
                                 <h3>Pick Up</h3>
-                                <p>Educational recycling videogame presented for the <strong>National Prototype Contest 2020</strong>, the first <strong>Latin American Virtual Exhibition of Sciences, Techonology & Innovation</strong> and the <b>National Prototype Contest 2021</b>.</p>
+                                <p>
+                                    Educational recycling videogame presented for the
+                                    <strong>National Prototype Contest 2020</strong>,
+                                    the first <strong>Latin American Virtual Exhibition of Sciences, Techonology & Innovation</strong>
+                                    and the <b>National Prototype Contest 2021</b>.
+                                </p>
                                 <p>
                                     <a href="https://pickup.himmlisch.com.mx" target="_blank">Website link</a>
                                 </p>
@@ -248,7 +368,7 @@
                                 <h4>Characteristics:</h4>
                                 <ul>
                                     <li>Made with <b>Construct 2</b></li>
-                                    <li>Use of A* algorithm</li>
+                                    <li>Pathfinding with A* algorithm</li>
                                     <li>Save & load mechanics</li>
                                 </ul>
                             </div>
@@ -257,24 +377,29 @@
                     <!-- Project end -->
 
                     <!-- Project start -->
-                    <article id="piratetube">
+                    <article id="luanhimmlisch">
                         <div class="project__image">
-                            <img src="./img/project-piratetube.png" alt="PirateTube.net website screenshot">
+                            <img src="./img/project-luanhimmlisch.png" alt="Luan Himmlisch website screenshot">
                         </div>
                         <div class="project__content">
                             <div>
-                                <h3>PirateTube</h3>
-                                <p>PirateTube is a Peer to Peer, Youtube-like video streaming service. This project was made for Pirate Chain, an anonymous cryptocurrency.</p>
+                                <h3>Luan Himmlisch</h3>
                                 <p>
-                                    <a href="https://piratetube.net/" target="_blank">Website link</a>
+                                    This site itself is a sample of the skills I've learned over years of personal
+                                    and professional work.
+                                    Built from scratch, SEO friendly and open-source for you to check!
+                                </p>
+                                <p>
+                                    <a href="https://github.com/LuanHimmlisch/luanhimmlisch.github.io/"
+                                       target="_blank">Github repository</a>
                                 </p>
                             </div>
                             <div class="project__characteristics">
                                 <h4>Characteristics:</h4>
                                 <ul>
-                                    <li>Peertube Theme</li>
-                                    <li><b>Ubuntu server</b> setup</li>
-                                    <li>Peer to Peer</li>
+                                    <li>Structured <strong>HTML5</strong> & <strong>CSS3</strong></li>
+                                    <li>Accesibility & <strong>SEO friendly</strong></li>
+                                    <li>Vanilla javascript</li>
                                 </ul>
                             </div>
                         </div>
@@ -291,35 +416,31 @@
         <!-- ACHIEVEMENTS SECTION -->
         <section id="achievements" aria-labelledby="achievements-title">
             <h2 class="text-center" id="achievements-title">🏆 Achievements & Awards</h2>
-            <div class="achievements_content">
-                <!-- Award start -->
-                <article class="achievement">
-                    <a href="./docs/prototipos2021.pdf" class="player" target="_blank">
-                        <img class="player--hover" src="./img/achievements/pickup-prototipos2021.png" alt="">
-                        <img class="player--default" src="./img/achievements/pickup-default.png" alt="See certificate of 2nd place of the State stage National Prototype Contest 2021">
-                    </a>
-                    <h3 class="text-base">National Prototype Contest 2021 (2nd - State)</h3>
-                </article>
-                <!-- Award end -->
-                <!-- Award start -->
-                <article class="achievement">
-                    <a href="./docs/mlvcti.pdf" class="player" target="_blank">
-                        <img class="player--hover" src="./img/achievements/pickup-mlvcti.png" alt="">
-                        <img class="player--default" src="./img/achievements/pickup-default.png" alt="See certificate of 1st place of the Latin American Virtual Exhibition">
-                    </a>
-                    <h3 class="text-base">1st Latin American Virtual Exhibition of Sciences, Techonology & Innovation (1st)</h3>
-                </article>
-                <!-- Award end -->
-                <!-- Award start -->
-                <article class="achievement">
-                    <a href="" class="player" target="_blank">
-                        <img class="player--hover" src="./img/achievements/pickup-default.png" alt="">
-                        <img class="player--default" src="./img/achievements/pickup-default.png" alt="See certificate of 2nd place of the State stage National Prototype Contest 2020">
-                    </a>
-                    <h3 class="text-base">National Prototype Contest 2020 (1st - State)</h3>
-                </article>
-                <!-- Award end -->
-            </div>
+            <ul class="achievements__summary">
+                <!-- Achievement start -->
+                <li class="achievement achievement--with-context">
+                    <h3 class="achievement__title">Awards</h3>
+                    <p class="achievement__count"><span data-counter>3</span></p>
+                    <ul class="achievement__context">
+                        <li>National Prototype Contest 2021 (2nd - State)</li>
+                        <li>First Latin American Virtual Exhibition of Sciences, Techonology & Innovation (1st)</li>
+                        <li>National Prototype Contest 2020 (1st - State)</li>
+                    </ul>
+                </li>
+                <!-- Achievement end -->
+                <!-- Achievement start -->
+                <li class="achievement">
+                    <h3 class="achievement__title">Conferences</h3>
+                    <p class="achievement__count"><span data-counter>5</span></p>
+                </li>
+                <!-- Achievement end -->
+                <!-- Achievement start -->
+                <li class="achievement">
+                    <h3 class="achievement__title">Projects</h3>
+                    <p class="achievement__count"><span data-counter>30</span>+</p>
+                </li>
+                <!-- Achievement end -->
+            </ul>
         </section>
 
 
@@ -401,21 +522,27 @@
                         <option>I have a business opportunity</option>
                         <option>I want you to collaborate to my open source project</option>
                         <option>I'm from the media</option>
-                        <option data-faq="website-cost" aria-describedby="faq-website-cost">How much for a website?</option>
-                        <option data-faq="website-support" aria-describedby="faq-website-support">I have a problem with my site</option>
+                        <option data-faq="website-cost" aria-describedby="faq-website-cost">How much for a website?
+                        </option>
+                        <option data-faq="website-support" aria-describedby="faq-website-support">I have a problem with
+                            my site</option>
                         <option data-faq="hi" aria-describedby="faq-hi">I just want to say hi!</option>
                     </select>
 
                     <!-- FAQS -->
                     <div id="faqs">
                         <div class="hidden" id="faq-hi">
-                            <p><b>Hello!</b> I'm open to all types of conversations but try to keep this way of communication <b>professional</b></p>
+                            <p><b>Hello!</b> I'm open to all types of conversations but try to keep this way of
+                                communication <b>professional</b></p>
                         </div>
                         <div class="hidden" id="faq-website-cost">
-                            <p>You can contact me via <a href="https://fiverr.com/luanhimmlisch" target="_blank">Fiverr</a> or <a href="https://web.himmlisch.com.mx" target="_blank">Himmlisch web</a></p>
+                            <p>You can contact me via <a href="https://fiverr.com/luanhimmlisch"
+                                   target="_blank">Fiverr</a> or <a href="https://web.himmlisch.com.mx"
+                                   target="_blank">Himmlisch web</a></p>
                         </div>
                         <div class="hidden" id="faq-website-support">
-                            <p>If the site was made by <b>Himmlisch Web</b> and want support, you can contact me via <a href="mailto:soporte@himmlisch.com.mx">soporte@himmlisch.com.mx</a></p>
+                            <p>If the site was made by <b>Himmlisch Web</b> and want support, you can contact me via <a
+                                   href="mailto:soporte@himmlisch.com.mx">soporte@himmlisch.com.mx</a></p>
                         </div>
                     </div>
                 </div>
@@ -437,57 +564,173 @@
 
 
     <footer>
-        <p>Did you liked the site? Check the <a href="https://github.com/LuanHimmlisch/luanhimmlisch.github.io" target="_blank">repository</a>!</p>
-        <p><a href="https://www.linkedin.com/in/luancomun/" target="_blank">LinkedIn</a> | <a href="https://github.com/LuanHimmlisch" target="_blank">Github</a> | <a href="https://masterpose.dev" target="_blank">Videogames</a></p>
+        <p>
+            Did you like the site? Check the
+            <a href="https://github.com/LuanHimmlisch/luanhimmlisch.github.io"
+               target="_blank">
+                repository
+            </a>
+            !
+        </p>
+        <p>
+            <a href="https://www.linkedin.com/in/luancomun/" target="_blank">
+                LinkedIn
+            </a>
+            |
+            <a
+               href="https://github.com/LuanHimmlisch" target="_blank">
+                Github
+            </a>
+            |
+            <a href="https://masterpose.dev" target="_blank">
+                Videogames
+            </a>
+        </p>
     </footer>
+
+    <!-- GLOBAL -->
+    <script>
+        function respondToObserver(options = {}, element, callback, once = true) {
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        callback();
+                        if (once) {
+                            observer.unobserve(entry.target);
+                        }
+                    }
+                });
+            }, options);
+
+            observer.observe(element);
+        }
+
+        function respondToScroll(element, callback) {
+            respondToObserver({
+                root: null,
+            }, element, callback);
+        }
+
+        function respondToVisibility(element, callback) {
+            respondToObserver({
+                root: document.documentElement,
+            }, element, callback, false);
+        }
+    </script>
 
     <!-- FORM FAQ -->
     <script>
-        const subject = document.getElementById("subject");
-        subject.addEventListener("change", () => UpdateFaq());
+        window.addEventListener('load', () => {
+            function updateFaq() {
+                const faqId = subject.options[subject.selectedIndex].dataset.faq;
+                const faqs = document.getElementById("faqs");
 
-        function UpdateFaq() {
-            const faqId = subject.options[subject.selectedIndex].dataset.faq;
-            const faqs = document.getElementById("faqs");
+                const childrens = faqs.children;
+                for (let i = 0; i < childrens.length; i++) {
+                    const faq = childrens[i];
+                    faq.classList.add("hidden");
+                }
 
-            const childrens = faqs.children;
-            for (let i = 0; i < childrens.length; i++) {
-                const faq = childrens[i];
-                faq.classList.add("hidden");
+                if (faqId == undefined) {
+                    return;
+                }
+
+                const answer = document.getElementById(`faq-${faqId}`);
+                answer.classList.remove("hidden");
             }
 
-            if (faqId == undefined) {
-                return;
-            }
-
-            const answer = document.getElementById(`faq-${faqId}`);
-            answer.classList.remove("hidden");
-        }
+            const subject = document.getElementById("subject");
+            subject.addEventListener("change", () => updateFaq());
+        });
     </script>
 
     <!-- PROJECT VSCODE WINDOW -->
     <script>
-        function ButtonShowProject(element) {
-            projectId = element.dataset.project;
-            const title = document.querySelector(".portfolio__title");
-            title.innerHTML = `README.md - ${projectId} - 💼 Portfolio`;
-            ShowProject(projectId);
-        }
-        function ShowProject(projectId) {
-            HideProjects();
-            const portfolioContainer = document.getElementById(projectId);
-            portfolioContainer.classList.remove("hidden");
-        }
-        function HideProjects() {
-            const portfolioContainer = document.querySelector(".portfolio__content");
-            const childrens = portfolioContainer.children;
-            for (let i = 0; i < childrens.length; i++) {
-                const project = childrens[i];
-                project.classList.add("hidden");
+        window.addEventListener('load', () => {
+            function showProject(projectId) {
+                hideProjects();
+                const portfolioContainer = document.getElementById(projectId);
+                portfolioContainer.classList.remove("hidden");
+            }
+            function buttonShowProject(element) {
+                projectId = element.dataset.project;
+                const title = document.querySelector(".portfolio__title");
+                title.innerHTML = `README.md - ${projectId} - 💼 Portfolio`;
+                showProject(projectId);
+            }
+            function hideProjects() {
+                const portfolioContainer = document.querySelector(".portfolio__content");
+                const childrens = portfolioContainer.children;
+                for (let i = 0; i < childrens.length; i++) {
+                    const project = childrens[i];
+                    project.classList.add("hidden");
+                }
             }
 
-        }
-        document.onload = ShowProject("none");
+            showProject("none");
+
+            document.querySelectorAll('[data-project]').forEach(element =>
+                element.addEventListener('click', () => buttonShowProject(element))
+            );
+        });
+    </script>
+
+    <!-- CAROUSEL -->
+    <script>
+        window.addEventListener('load', () => {
+            document.querySelectorAll('[data-carousel]').forEach((element) => {
+                const init = () => {
+                    const width = element.offsetWidth;
+                    const children = parent.children;
+                    Object.values(children).forEach((child) => {
+                        child.style.minWidth = `${width}px`;
+                    });
+                }
+                const time = element.dataset.carousel * 1;
+                const parent = element.firstElementChild;
+
+                respondToVisibility(element, () => init());
+
+                setInterval(() => {
+                    const width = element.offsetWidth;
+                    const children = parent.children;
+                    const count = parent.children.length;
+
+                    const transform = Math.abs(parent.style.transform?.replace(/[^\d.]/g, '') ?? 0);
+                    let index = Math.round(transform / width) + 1;
+
+                    if (index == count) {
+                        index = 0
+                    };
+
+                    parent.style.transform = `translateX(-${index * width}px)`;
+                }, time);
+            });
+        });
+    </script>
+
+    <!-- COUNTER -->
+    <script>
+        window.addEventListener('load', () => {
+            const time = 1000;
+            document.querySelectorAll('[data-counter]').forEach((element, i) => {
+                const number = element.textContent * 1;
+                element.innerHTML = 0;
+
+                respondToScroll(element, () => {
+                    setTimeout(() => {
+                        const countdown = setInterval(() => {
+                            const toNumber = (element.innerHTML * 1) + 1;
+                            element.innerHTML = toNumber;
+
+                            if (toNumber >= number) {
+                                clearInterval(countdown);
+                            }
+                        }, ((time + i * 400) / number));
+                    }, 100);
+                });
+            });
+        });
     </script>
 </body>
 
